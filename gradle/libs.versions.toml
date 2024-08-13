@@ -1,0 +1,30 @@
+[versions]
+sendbirdUikitCompose = "1.0.0-beta.1"
+ktlint = "0.50.0"
+coilCompose = "2.2.0"
+firebaseBom = "33.1.2"
+androidxCore = "1.13.1"
+androidxActivityCompose = "1.9.1"
+androidxComposeMaterial3 = "1.2.1"
+androidxLifecycleCompose = "2.8.4"
+composeUiToolingPreview = "1.6.8"
+androidGradlePlugin = "8.4.1"
+googleServices = "4.3.15"
+kotlinAndroid = "1.7.20"
+
+[libraries]
+sendbird-uikit-compose = { group = "com.sendbird.sdk", name = "uikit-compose", version.ref = "sendbirdUikitCompose" }
+ktlint = { group = "com.pinterest", name = "ktlint", version.ref = "ktlint" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivityCompose" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidxComposeMaterial3" }
+androidx-lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycleCompose" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "composeUiToolingPreview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinAndroid" }
