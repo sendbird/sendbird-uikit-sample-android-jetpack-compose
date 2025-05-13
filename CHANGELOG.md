@@ -1,5 +1,14 @@
 # Changelog
 
+### v1.1.0 (Apr 23, 2025) with Chat SDK `v4.24.1`
+- Added OgTag Support in UIKit-Compose. If a message has `ogMetaData` and OgTag is enabled, links shared within messages will automatically display previews using metadata.
+    - Added `OgTagMessage` including `OgTagThumbnail`, `OgTagTitle`, `OgTagContent`, and `OgTagUrl`.
+    - You can customize `OgTagMessage` by passing a parameter to `ogTagMessage` in the TextMessage composable.
+- `UiKitBaseMessage` now includes an `ogMetaData` property to handle Open Graph metadata for link previews.
+- Added `UiKitConfig` to UIKit-Compose for controlling UIKit features
+    - Configuration values are managed via the Sendbird Dashboard, but developers can override them programmatically using custom options.
+    - The priority of the configurations is custom options over the dashboard. If a custom option is not set, the dashboard value is used.
+
 ### v1.0.0 (Dec 6, 2024) with Chat SDK `v4.21.1`
 #### UIKit for Jetpack Compose GA
 🎉 Exciting Announcement: UIKit for Jetpack Compose now goes GA 🎉<p>

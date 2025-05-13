@@ -11,6 +11,7 @@ import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
@@ -71,8 +72,9 @@ fun SendbirdUikitApp(
             SnackbarHost(hostState = snackbarHostState) {
                 SendbirdSnackbar(data = it)
             }
-        }
-    ) {
+        },
+        containerColor = Color.Transparent
+    ) { paddingValues ->
         NavHost(
             navController = navController,
             startDestination = if (appState.isLoggedIn) SendbirdNavigation.GroupChannel.route else LoginRoute,
@@ -81,8 +83,7 @@ fun SendbirdUikitApp(
             },
             exitTransition = {
                 ExitTransition.None
-            },
-            modifier = Modifier.padding(it)
+            }
         ) {
             composable(route = LoginRoute) {
                 LoginScreen(
@@ -105,7 +106,8 @@ fun SendbirdUikitApp(
                                 snackbarHostState.showError("Failed to login")
                             }
                         }
-                    }
+                    },
+                    modifier = Modifier.padding(paddingValues)
                 )
             }
 

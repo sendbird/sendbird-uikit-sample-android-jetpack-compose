@@ -84,7 +84,7 @@ fun TabbedChannelsScreen(
     val uiState by channelsViewModel.uiState.collectAsStateWithLifecycle()
 
     Scaffold(
-        modifier = modifier,
+        modifier = modifier.safeDrawingPadding(),
         bottomBar = {
             ChannelsAndSettingsTabRow(
                 uiState = uiState,
