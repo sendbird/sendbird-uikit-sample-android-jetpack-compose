@@ -1,4 +1,15 @@
 # Changelog
+### v1.2.0 (May 29, 2025) with Chat SDK `v4.27.1`
+- Message reactions are now supported in UIKit Compose.
+- `UIKitBaseMessage` now includes a `reactions` property to hold reaction data.
+- Added `isReactionsEnabled` to `UiKitConfig` to enable the feature.
+- Added `onClickMessageMenuEmoji`, `onClickMessageMenuEmojiMoreButton`  to `MessageMenuDialogContract`.
+- Added `ShowEmojiList` and `ShowEmojiReactedUserDialog` to `ChannelDialogAction`.
+- Added new Compose UI components for reactions.
+    - `EmojiList`, `EmojiReactionList`, `EmojiReactedUserList`
+    - `EmojiItem`, `EmojiReactionItem`, `EmojiReactedUserItem`, `EmojiReactionCountItem`
+    - `EmojiListDialog`, `EmojiReactedUserDialog`
+    - `EmojiMoreButton`, `EmojiReactionMoreButton`
 
 ### v1.1.0 (Apr 23, 2025) with Chat SDK `v4.24.1`
 - Added OgTag Support in UIKit-Compose. If a message has `ogMetaData` and OgTag is enabled, links shared within messages will automatically display previews using metadata.
