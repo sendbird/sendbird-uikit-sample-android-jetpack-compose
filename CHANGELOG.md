@@ -1,4 +1,9 @@
 # Changelog
+### v1.3.0 (Jul 18, 2025) with Chat SDK `v4.27.3`
+- Added support for TypingIndicator in UIKit Compose.
+- Added `GroupChannelConfigurations` for controlling GroupChannel features.
+- Fixed an issue where the NetworkCallback was registered multiple times when sending image messages repeatedly.
+
 ### v1.2.0 (May 29, 2025) with Chat SDK `v4.27.1`
 - Message reactions are now supported in UIKit Compose.
 - `UIKitBaseMessage` now includes a `reactions` property to hold reaction data.
