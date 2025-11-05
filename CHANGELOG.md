@@ -1,4 +1,7 @@
 # Changelog
+### v1.3.1 (Nov 4, 2025) with Chat SDK `v4.31.1`
+- Fixed a possible binary compatibility issue when using Chat SDK in multiple products.
+
 ### v1.3.0 (Jul 18, 2025) with Chat SDK `v4.27.3`
 - Added support for TypingIndicator in UIKit Compose.
 - Added `GroupChannelConfigurations` for controlling GroupChannel features.
