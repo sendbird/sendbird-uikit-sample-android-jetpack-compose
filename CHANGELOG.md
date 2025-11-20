@@ -1,4 +1,10 @@
 # Changelog
+### v1.3.2 (Nov 19, 2025) with Chat SDK `v4.32.1`
+- Updated Chat SDK to `v4.32.1` to prevent error screen showing due to connection issues
+    - Please refer to the Chat SDK's [Release](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.32.1)
+- Fixed error message shown in `ChannelScreen` when `uiState` is `SendbirdScreenUiState.Failure`
+    - Changed from `Couldn't retrieve channel list.` to `Couldn't retrieve messages.`
+
 ### v1.3.1 (Nov 4, 2025) with Chat SDK `v4.31.1`
 - Fixed a possible binary compatibility issue when using Chat SDK in multiple products.
 
