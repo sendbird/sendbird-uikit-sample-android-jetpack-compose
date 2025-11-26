@@ -1,4 +1,7 @@
 # Changelog
+### v1.3.3 (Nov 26, 2025) with Chat SDK `v4.32.2`
+- Updated Chat SDK to [`v4.32.2`](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.32.2) to add more details in sdk request log for better debugging.
+
 ### v1.3.2 (Nov 19, 2025) with Chat SDK `v4.32.1`
 - Updated Chat SDK to `v4.32.1` to prevent error screen showing due to connection issues
     - Please refer to the Chat SDK's [Release](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.32.1)
