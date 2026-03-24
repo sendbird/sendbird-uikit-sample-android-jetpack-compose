@@ -1,4 +1,7 @@
 # Changelog
+### v1.3.4 (Mar 18, 2026) with Chat SDK `v4.34.1`
+- Added `isAutoscrollMessageOverflowToTopEnabled` option to automatically scroll to the top of a new incoming message when its height overflows the visible screen.
+
 ### v1.3.3 (Nov 26, 2025) with Chat SDK `v4.32.2`
 - Updated Chat SDK to [`v4.32.2`](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.32.2) to add more details in sdk request log for better debugging.
 
