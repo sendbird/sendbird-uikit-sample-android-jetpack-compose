@@ -1,108 +1,30 @@
 [versions]
-sdkSendbird = "4.36.2"
-sdkSendbirdKtx = "4.36.0"
-sdkSendbirdUikitData = "1.3.5"
-sdkSendbirdUikitCommon = "1.0.2"
-sdkSendbirdUikitLogger = "1.0.0"
-sdkCoil = "2.2.0"
-sdkAndroidGradlePlugin = "8.4.1"
-sdkAndroidxActivity = "1.8.2"
-sdkAndroidxAppCompat = "1.6.1"
-sdkAndroidxCompose = "1.6.3"
-sdkAndroidxComposeMaterial3 = "1.2.1"
-sdkAndroidxNavigationCompose = "2.7.7"
-sdkAndroidxConstraintlayoutCompose = "1.0.1"
-sdkAndroidxCore = "1.12.0"
-sdkAndroidxLifecycle = "2.7.0"
-sdkAndroidxTestExt = "1.1.5"
-sdkAndroidxTestEspresso = "3.5.1"
-sdkJunit4 = "4.13.2"
-sdkKotlin = "1.7.20"
-sdkDokkaVersion = "1.9.20"
-sdkKotlinxCoroutines = "1.7.1"
-sdkKotest ="5.6.0"
-sdkMockk = "1.13.4"
-sdkJunitParams = "1.1.0"
-sdkKtlint = "0.50.0"
-sdkBinaryCompatibilityValidator = "0.16.0"
-sdkMaterial = "1.5.0"
-sdkRecyclerView = "1.3.2"
-sdkKotlinSerialization = "1.3.2"
-sdkGlide = "4.16.0"
-paparazzi = "1.3.1"
-sdkRobolectric = "4.13"
-sdkNavigationTesting = "2.7.7"
-
-sampleSendbirdUikitCompose = "1.0.0"
-sampleKtlint = "0.50.0"
-sampleCoilCompose = "2.2.0"
-sampleFirebaseBom = "33.1.2"
-sampleAndroidxCore = "1.13.1"
-sampleAndroidxActivityCompose = "1.9.1"
-sampleAndroidxComposeMaterial3 = "1.2.1"
-sampleAndroidxLifecycleCompose = "2.8.4"
-sampleComposeUiToolingPreview = "1.6.8"
-sampleAndroidGradlePlugin = "8.4.1"
-sampleGoogleServices = "4.3.15"
-sampleKotlinAndroid = "1.7.20"
+sendbirdUikitCompose = "1.3.5"
+ktlint = "0.50.0"
+coilCompose = "2.2.0"
+firebaseBom = "33.1.2"
+androidxCore = "1.13.1"
+androidxActivityCompose = "1.9.1"
+androidxComposeMaterial3 = "1.2.1"
+androidxLifecycleCompose = "2.8.4"
+composeUiToolingPreview = "1.6.8"
+androidGradlePlugin = "8.4.1"
+googleServices = "4.3.15"
+kotlinAndroid = "1.7.20"
 
 [libraries]
-sdk-sendbird = { group = "com.sendbird.sdk", name = "sendbird-chat", version.ref = "sdkSendbird" }
-sdk-sendbird-ktx = { group = "com.sendbird.sdk", name = "sendbird-chat-ktx", version.ref = "sdkSendbirdKtx" }
-sdk-sendbird-uikit-logger = { group = "com.sendbird.sdk", name = "uikit-logger", version.ref = "sdkSendbirdUikitLogger" }
-sdk-sendbird-uikit-data = { group = "com.sendbird.sdk", name = "uikit-data", version.ref = "sdkSendbirdUikitData" }
-sdk-sendbird-uikit-common = { group = "com.sendbird.sdk", name = "uikit-common", version.ref = "sdkSendbirdUikitCommon" }
-sdk-coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "sdkCoil" }
-sdk-coil-video = { group = "io.coil-kt", name = "coil-video", version.ref = "sdkCoil" }
-sdk-coil-gif = { group = "io.coil-kt", name = "coil-gif", version.ref = "sdkCoil" }
-
-sdk-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "sdkAndroidxCore" }
-sdk-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "sdkAndroidxActivity" }
-sdk-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "sdkAndroidxAppCompat" }
-sdk-androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "sdkAndroidxComposeMaterial3" }
-sdk-androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "sdkAndroidxCompose" }
-sdk-androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling", version.ref = "sdkAndroidxCompose" }
-sdk-androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4", version.ref = "sdkAndroidxCompose" }
-sdk-androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest", version.ref = "sdkAndroidxCompose" }
-sdk-androidx-constraintlayout-compose = { group = "androidx.constraintlayout", name = "constraintlayout-compose", version.ref = "sdkAndroidxConstraintlayoutCompose" }
-sdk-androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "sdkAndroidxNavigationCompose" }
-sdk-androidx-lifecycle-viewmodel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "sdkAndroidxLifecycle" }
-sdk-androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "sdkAndroidxLifecycle" }
-sdk-androidx-test-ext = { group = "androidx.test.ext", name = "junit", version.ref = "sdkAndroidxTestExt" }
-sdk-androidx-test-espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "sdkAndroidxTestEspresso" }
-sdk-junit4 = { group = "junit", name = "junit", version.ref = "sdkJunit4" }
-sdk-kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "sdkKotlinxCoroutines" }
-sdk-kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "sdkKotlinxCoroutines" }
-sdk-mockk = { group = "io.mockk", name = "mockk", version.ref = "sdkMockk" }
-sdk-kotest = { group = "io.kotest", name = "kotest-assertions-core", version.ref = "sdkKotest" }
-sdk-junit-params = { group = "pl.pragmatists", name = "JUnitParams", version.ref = "sdkJunitParams" }
-sdk-pinterest-ktlint = { group = "com.pinterest", name = "ktlint", version.ref = "sdkKtlint" }
-sdk-google-android-material = { group = "com.google.android.material", name = "material", version.ref = "sdkMaterial" }
-sdk-androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "sdkRecyclerView" }
-sdk-kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "sdkKotlinSerialization" }
-sdk-github-bumptech-glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "sdkGlide" }
-sdk-github-bumptech-glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "sdkGlide" }
-sdk-app-cash-paparazzi = { group = "app.cash.paparazzi", name = "paparazzi", version.ref = "paparazzi" }
-sdk-robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "sdkRobolectric" }
-sdk-navigation-testing = { group = "androidx.navigation", name = "navigation-testing", version.ref = "sdkNavigationTesting" }
-
-sample-sendbird-uikit-compose = { module = "com.sendbird.sdk:uikit-compose", version.ref = "sampleSendbirdUikitCompose" }
-sample-ktlint = { group = "com.pinterest", name = "ktlint", version.ref = "sampleKtlint" }
-sample-coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "sampleCoilCompose" }
-sample-firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "sampleFirebaseBom" }
-sample-firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging" }
-sample-androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "sampleAndroidxCore" }
-sample-androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "sampleAndroidxActivityCompose" }
-sample-compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "sampleAndroidxComposeMaterial3" }
-sample-androidx-lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "sampleAndroidxLifecycleCompose" }
-sample-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "sampleComposeUiToolingPreview" }
+sendbird-uikit-compose = { group = "com.sendbird.sdk", name = "uikit-compose", version.ref = "sendbirdUikitCompose" }
+ktlint = { group = "com.pinterest", name = "ktlint", version.ref = "ktlint" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidxCore" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidxActivityCompose" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidxComposeMaterial3" }
+androidx-lifecycle-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycleCompose" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "composeUiToolingPreview" }
 
 [plugins]
-sdk-android-library = { id = "com.android.library", version.ref = "sdkAndroidGradlePlugin" }
-sdk-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "sdkKotlin" }
-sdk-dokka = { id = "org.jetbrains.dokka", version.ref = "sdkDokkaVersion" }
-sdk-binary-compatibility-validator = { id = 'org.jetbrains.kotlinx.binary-compatibility-validator', version.ref = "sdkBinaryCompatibilityValidator" }
-
-sample-android-application = { id = "com.android.application", version.ref = "sampleAndroidGradlePlugin" }
-sample-google-services = { id = "com.google.gms.google-services", version.ref = "sampleGoogleServices" }
-sample-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "sampleKotlinAndroid" }
+android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinAndroid" }
