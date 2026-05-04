@@ -1,7 +1,7 @@
 plugins {
-    alias(libs.plugins.android.application)
-    alias(libs.plugins.google.services)
-    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.sample.android.application)
+    alias(libs.plugins.sample.google.services)
+    alias(libs.plugins.sample.kotlin.android)
 }
 
 val ktlint by configurations.creating
@@ -50,23 +50,23 @@ android {
 }
 
 dependencies {
-    ktlint(libs.ktlint) {
+    ktlint(libs.sample.ktlint) {
         attributes {
             attribute(Bundling.BUNDLING_ATTRIBUTE, objects.named(Bundling.EXTERNAL))
         }
     }
 
-    implementation(libs.sendbird.uikit.compose)
-    implementation(libs.coil.compose)
+//    implementation(libs.sample.sendbird.uikit.compose)
+    implementation(libs.sample.coil.compose)
 
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.messaging)
+    implementation(platform(libs.sample.firebase.bom))
+    implementation(libs.sample.firebase.messaging)
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.activity.compose)
-    implementation(libs.compose.material3)
-    implementation(libs.androidx.lifecycle.compose)
-    implementation(libs.compose.ui.tooling.preview)
+    implementation(libs.sample.androidx.core.ktx)
+    implementation(libs.sample.androidx.activity.compose)
+    implementation(libs.sample.compose.material3)
+    implementation(libs.sample.androidx.lifecycle.compose)
+    implementation(libs.sample.compose.ui.tooling.preview)
 }
 
 val ktlintCheck by tasks.registering(JavaExec::class) {

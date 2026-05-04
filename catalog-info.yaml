@@ -2,11 +2,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: sendbird-uikit-sample-android-jetpack-compose
-  description: UIKit for Android Jetpack Compose
+  description: UIKit Jetpack Compose for Android
   annotations:
     github.com/project-slug: sendbird/sendbird-uikit-sample-android-jetpack-compose
 spec:
-  type: sample
+  type: library
   lifecycle: production
   owner: dep-client-platform
   system: sendbird-uikit

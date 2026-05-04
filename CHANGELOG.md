@@ -1,4 +1,6 @@
 # Changelog
+### v1.3.5 (May 4, 2026) with Chat SDK `v4.36.2`
+- Updated Sendbird Chat SDK to [v4.36.2](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.36.2).
 ### v1.3.4 (Mar 18, 2026) with Chat SDK `v4.34.1`
 - Added `isAutoscrollMessageOverflowToTopEnabled` option to automatically scroll to the top of a new incoming message when its height overflows the visible screen.
 
@@ -40,19 +42,14 @@
     - Configuration values are managed via the Sendbird Dashboard, but developers can override them programmatically using custom options.
     - The priority of the configurations is custom options over the dashboard. If a custom option is not set, the dashboard value is used.
 
-### v1.0.0 (Dec 6, 2024) with Chat SDK `v4.21.1`
-#### UIKit for Jetpack Compose GA
-🎉 Exciting Announcement: UIKit for Jetpack Compose now goes GA 🎉<p>
-Previously launched as beta, UIKit for Jetpack Compose is now official.
-For detailed information and documentation, please visit our [docs homepage](https://sendbird.com/docs/chat/uikit/v3/jetpack-compose/overview).
-
-### v1.0.0-beta.2 (Oct 24, 2024) with Chat SDK `v4.19.4`
+### v1.0.1 (Apr 1, 2025) with Chat SDK `v4.24.1`
+- Fixed an issue where some UIKit composable were unresponsive when both the status bar and navigation bar were hidden in edge-to-edge mode### v1.0.0-beta.2 (Oct 24, 2024) with Chat SDK `v4.19.4`
 * Supported message group UI.
 * Improved customization.
-    * Added additional parameters to composable functions.
-    * Added ViewModelContract for each screen.
-    * Added composable functions for dialogs.
-    * Added additional small components.
+  * Added additional parameters to composable functions.
+  * Added ViewModelContract for each screen.
+  * Added composable functions for dialogs.
+  * Added additional small components.
 
 ### v1.0.0-beta.1 (Aug 14, 2024) with Chat SDK `v4.18.0`
 
