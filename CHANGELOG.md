@@ -1,4 +1,6 @@
 # Changelog
+### v1.3.6 (May 28, 2026) with Chat SDK `v4.36.3`
+- Updated Sendbird Chat SDK to [v4.36.3](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.36.3).
 ### v1.3.5 (May 4, 2026) with Chat SDK `v4.36.2`
 - Updated Sendbird Chat SDK to [v4.36.2](https://github.com/sendbird/sendbird-chat-sdk-android/releases/tag/chat%2F4.36.2).
 
